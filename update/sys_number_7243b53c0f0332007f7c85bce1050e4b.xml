@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_number">
+    <sys_number action="INSERT_OR_UPDATE">
+        <category display_value="" name="x_123925_venkatesh_rollschedule">x_123925_venkatesh_rollschedule</category>
+        <maximum_digits>6</maximum_digits>
+        <number>1000</number>
+        <prefix>ROL</prefix>
+        <sys_class_name>sys_number</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-28 01:30:14</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>7243b53c0f0332007f7c85bce1050e4b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>ROL</sys_name>
+        <sys_package display_value="VenRLRollScheduler" source="x_123925_venkatesh">3698adb40f0332007f7c85bce1050ecb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="VenRLRollScheduler">3698adb40f0332007f7c85bce1050ecb</sys_scope>
+        <sys_update_name>sys_number_7243b53c0f0332007f7c85bce1050e4b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-28 01:30:14</sys_updated_on>
+    </sys_number>
+</record_update>

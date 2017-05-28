@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="RollSchedule" max_length="40" name="x_123925_venkatesh_rollschedule" type="collection">
+        <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Roll Links" label="RollActivity" mandatory="true" max_length="25" name="u_activity" type="string">
+            <choice>
+                <element label="Roll Links" sequence="0" value="Roll Links"/>
+                <element label="Application Access Groups" sequence="1" value="Application Access Groups"/>
+            </choice>
+        </element>
+        <element attributes="edge_encryption_enabled=true" choice="3" default="DEV" label="Environment" max_length="40" name="u_choice_environment" type="string">
+            <choice>
+                <element label="DEV" sequence="0" value="DEV"/>
+                <element label="PILOT" sequence="1" value="PILOT"/>
+                <element label="PROD" sequence="2" value="PROD"/>
+            </choice>
+        </element>
+        <element label="RollDate" mandatory="true" max_length="40" name="u_rolldate" type="glide_date"/>
+        <element attributes="edge_encryption_enabled=true" label="Description" max_length="100" name="u_string_description" type="string"/>
+    </element>
+</database>
