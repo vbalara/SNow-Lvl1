@@ -2,6 +2,15 @@
 <database>
     <element label="RollSchedule" max_length="40" name="x_123925_venkatesh_rollschedule" type="collection">
         <element attributes="ignore_filter_on_new=true" default="javascript:global.getNextObjNumberPadded();" label="Number" max_length="40" name="number" type="string"/>
+        <element choice="3" default="New" label="Status" max_length="40" name="status" read_only="true" type="string">
+            <choice>
+                <element label="New" sequence="0" value="New"/>
+                <element label="Approved" sequence="1" value="Approved"/>
+                <element label="Scheduled" sequence="2" value="Scheduled"/>
+                <element label="Completed" sequence="3" value="Completed"/>
+                <element label="Error" sequence="4" value="Error"/>
+            </choice>
+        </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="Roll Links" label="RollActivity" mandatory="true" max_length="25" name="u_activity" type="string">
             <choice>
                 <element label="Roll Links" sequence="0" value="Roll Links"/>
