@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="RollApprovals" max_length="40" name="x_123925_venkatesh_rollapprovals" type="collection"/>
+</database>
