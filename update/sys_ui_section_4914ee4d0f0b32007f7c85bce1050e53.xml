@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Schedule a Roll" section_id="4914ee4d0f0b32007f7c85bce1050e53" sys_domain="global" table="x_123925_venkatesh_rollschedule" version="3" view="User_View">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>number</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-28 23:41:51</sys_created_on>
+            <sys_id>8d14ee4d0f0b32007f7c85bce1050e6b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule a Roll" display_value="Schedule a Roll" name="x_123925_venkatesh_rollschedule" sys_domain="global" view="4d14ee4d0f0b32007f7c85bce1050e4f">4914ee4d0f0b32007f7c85bce1050e53</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-28 23:41:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-28 23:41:51</sys_created_on>
+            <sys_id>0114ee4d0f0b32007f7c85bce1050e6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule a Roll" display_value="Schedule a Roll" name="x_123925_venkatesh_rollschedule" sys_domain="global" view="4d14ee4d0f0b32007f7c85bce1050e4f">4914ee4d0f0b32007f7c85bce1050e53</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-28 23:41:51</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-28 23:41:51</sys_created_on>
+            <sys_id>8114ee4d0f0b32007f7c85bce1050e6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule a Roll" display_value="Schedule a Roll" name="x_123925_venkatesh_rollschedule" sys_domain="global" view="4d14ee4d0f0b32007f7c85bce1050e4f">4914ee4d0f0b32007f7c85bce1050e53</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-28 23:41:51</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_string_description</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-28 23:41:51</sys_created_on>
+            <sys_id>0514ee4d0f0b32007f7c85bce1050e6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule a Roll" display_value="Schedule a Roll" name="x_123925_venkatesh_rollschedule" sys_domain="global" view="4d14ee4d0f0b32007f7c85bce1050e4f">4914ee4d0f0b32007f7c85bce1050e53</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-28 23:41:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_choice_environment</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-28 23:41:51</sys_created_on>
+            <sys_id>8514ee4d0f0b32007f7c85bce1050e6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule a Roll" display_value="Schedule a Roll" name="x_123925_venkatesh_rollschedule" sys_domain="global" view="4d14ee4d0f0b32007f7c85bce1050e4f">4914ee4d0f0b32007f7c85bce1050e53</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-28 23:41:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_activity</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-28 23:41:51</sys_created_on>
+            <sys_id>0914ee4d0f0b32007f7c85bce1050e6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule a Roll" display_value="Schedule a Roll" name="x_123925_venkatesh_rollschedule" sys_domain="global" view="4d14ee4d0f0b32007f7c85bce1050e4f">4914ee4d0f0b32007f7c85bce1050e53</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-28 23:41:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_rolldate</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-28 23:41:51</sys_created_on>
+            <sys_id>8914ee4d0f0b32007f7c85bce1050e6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule a Roll" display_value="Schedule a Roll" name="x_123925_venkatesh_rollschedule" sys_domain="global" view="4d14ee4d0f0b32007f7c85bce1050e4f">4914ee4d0f0b32007f7c85bce1050e53</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-28 23:41:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_time_1</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-28 23:41:51</sys_created_on>
+            <sys_id>0d14ee4d0f0b32007f7c85bce1050e6c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Schedule a Roll" display_value="Schedule a Roll" name="x_123925_venkatesh_rollschedule" sys_domain="global" view="4d14ee4d0f0b32007f7c85bce1050e4f">4914ee4d0f0b32007f7c85bce1050e53</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-28 23:41:51</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Schedule a Roll</caption>
+            <header>false</header>
+            <name>x_123925_venkatesh_rollschedule</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-28 23:41:51</sys_created_on>
+            <sys_customer_update>true</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4914ee4d0f0b32007f7c85bce1050e53</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Schedule a Roll</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="VenRLRollScheduler" source="x_123925_venkatesh">3698adb40f0332007f7c85bce1050ecb</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="VenRLRollScheduler">3698adb40f0332007f7c85bce1050ecb</sys_scope>
+            <sys_update_name>sys_ui_section_4914ee4d0f0b32007f7c85bce1050e53</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-28 23:41:51</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="User View" name="User_View">4d14ee4d0f0b32007f7c85bce1050e4f</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

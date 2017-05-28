@@ -11,10 +11,10 @@
                 <element label="Error" sequence="4" value="Error"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="3" default="Roll Links" label="RollActivity" mandatory="true" max_length="25" name="u_activity" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="3" default="Application Access Groups" label="Roll activity" mandatory="true" max_length="25" name="u_activity" type="string">
             <choice>
-                <element label="Roll Links" sequence="0" value="Roll Links"/>
-                <element label="Application Access Groups" sequence="1" value="Application Access Groups"/>
+                <element label="Application Access Groups" sequence="0" value="Application Access Groups"/>
+                <element label="Roll Links" sequence="1" value="Roll Links"/>
             </choice>
         </element>
         <element attributes="edge_encryption_enabled=true" choice="3" default="DEV" label="Environment" max_length="40" name="u_choice_environment" type="string">
@@ -24,7 +24,8 @@
                 <element label="PROD" sequence="2" value="PROD"/>
             </choice>
         </element>
-        <element label="RollDate" mandatory="true" max_length="40" name="u_rolldate" type="glide_date"/>
+        <element label="Roll time" mandatory="true" max_length="40" name="u_glide_time_1" type="glide_time"/>
+        <element label="Roll date" mandatory="true" max_length="40" name="u_rolldate" type="glide_date"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="100" name="u_string_description" type="string"/>
     </element>
 </database>

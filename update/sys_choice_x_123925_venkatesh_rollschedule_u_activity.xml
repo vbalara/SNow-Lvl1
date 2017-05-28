@@ -5,6 +5,25 @@
             <dependent_value/>
             <element>u_activity</element>
             <hint/>
+            <inactive>false</inactive>
+            <label>Application Access Groups</label>
+            <language>en</language>
+            <name>x_123925_venkatesh_rollschedule</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-05-28 02:01:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>728a7dfc0f0332007f7c85bce1050e71</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-05-28 23:30:18</sys_updated_on>
+            <value>Application Access Groups</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>u_activity</element>
+            <hint/>
             <inactive>true</inactive>
             <label>Choice 3</label>
             <language>en</language>
@@ -28,35 +47,16 @@
             <label>Roll Links</label>
             <language>en</language>
             <name>x_123925_venkatesh_rollschedule</name>
-            <sequence>0</sequence>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-05-28 02:01:54</sys_created_on>
-            <sys_domain>global</sys_domain>
-            <sys_domain_path>/</sys_domain_path>
-            <sys_id>f28a7dfc0f0332007f7c85bce1050e70</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-28 02:01:54</sys_updated_on>
-            <value>Roll Links</value>
-        </sys_choice>
-        <sys_choice action="INSERT_OR_UPDATE">
-            <dependent_value/>
-            <element>u_activity</element>
-            <hint/>
-            <inactive>false</inactive>
-            <label>Application Access Groups</label>
-            <language>en</language>
-            <name>x_123925_venkatesh_rollschedule</name>
             <sequence>1</sequence>
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2017-05-28 02:01:54</sys_created_on>
             <sys_domain>global</sys_domain>
             <sys_domain_path>/</sys_domain_path>
-            <sys_id>728a7dfc0f0332007f7c85bce1050e71</sys_id>
-            <sys_mod_count>0</sys_mod_count>
+            <sys_id>f28a7dfc0f0332007f7c85bce1050e70</sys_id>
+            <sys_mod_count>1</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-28 02:01:54</sys_updated_on>
-            <value>Application Access Groups</value>
+            <sys_updated_on>2017-05-28 23:30:18</sys_updated_on>
+            <value>Roll Links</value>
         </sys_choice>
         <sys_choice_set action="INSERT_OR_UPDATE">
             <element>u_activity</element>
@@ -66,7 +66,7 @@
             <sys_created_on>2017-05-28 02:01:54</sys_created_on>
             <sys_customer_update>false</sys_customer_update>
             <sys_id>3e8a7dfc0f0332007f7c85bce1050e70</sys_id>
-            <sys_mod_count>2</sys_mod_count>
+            <sys_mod_count>3</sys_mod_count>
             <sys_name>u_activity</sys_name>
             <sys_package display_value="VenRLRollScheduler" source="x_123925_venkatesh">3698adb40f0332007f7c85bce1050ecb</sys_package>
             <sys_policy/>
@@ -74,7 +74,7 @@
             <sys_scope display_value="VenRLRollScheduler">3698adb40f0332007f7c85bce1050ecb</sys_scope>
             <sys_update_name>sys_choice_x_123925_venkatesh_rollschedule_u_activity</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-28 02:02:14</sys_updated_on>
+            <sys_updated_on>2017-05-28 23:30:18</sys_updated_on>
         </sys_choice_set>
     </sys_choice>
 </record_update>
