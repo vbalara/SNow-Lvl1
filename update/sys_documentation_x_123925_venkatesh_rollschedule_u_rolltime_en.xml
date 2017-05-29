@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <record_update>
-    <sys_documentation element="u_glide_time_1" label="Roll time" language="en" table="x_123925_venkatesh_rollschedule">
+    <sys_documentation element="u_rolltime" label="Roll time" language="en" table="x_123925_venkatesh_rollschedule">
         <sys_documentation action="INSERT_OR_UPDATE">
-            <element>u_glide_time_1</element>
+            <element>u_rolltime</element>
             <help/>
             <hint/>
             <label>Roll time</label>
@@ -11,18 +11,18 @@
             <plural>Roll times</plural>
             <sys_class_name>sys_documentation</sys_class_name>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2017-05-28 23:03:58</sys_created_on>
+            <sys_created_on>2017-05-29 04:15:07</sys_created_on>
             <sys_customer_update>true</sys_customer_update>
-            <sys_id>ca6b52890f0b32007f7c85bce1050e09</sys_id>
+            <sys_id>3b92af090f8b32007f7c85bce1050e8d</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_name>Roll time</sys_name>
             <sys_package display_value="VenRLRollScheduler" source="x_123925_venkatesh">3698adb40f0332007f7c85bce1050ecb</sys_package>
             <sys_policy/>
             <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
             <sys_scope display_value="VenRLRollScheduler">3698adb40f0332007f7c85bce1050ecb</sys_scope>
-            <sys_update_name>sys_documentation_x_123925_venkatesh_rollschedule_u_glide_time_1_en</sys_update_name>
+            <sys_update_name>sys_documentation_x_123925_venkatesh_rollschedule_u_rolltime_en</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2017-05-28 23:03:58</sys_updated_on>
+            <sys_updated_on>2017-05-29 04:15:07</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

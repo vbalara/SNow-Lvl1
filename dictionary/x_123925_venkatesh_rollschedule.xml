@@ -24,8 +24,8 @@
                 <element label="PROD" sequence="2" value="PROD"/>
             </choice>
         </element>
-        <element label="Roll time" mandatory="true" max_length="40" name="u_glide_time_1" type="glide_time"/>
         <element label="Roll date" mandatory="true" max_length="40" name="u_rolldate" type="glide_date"/>
+        <element label="Roll time" mandatory="true" max_length="40" name="u_rolltime" type="glide_time"/>
         <element attributes="edge_encryption_enabled=true" label="Description" max_length="100" name="u_string_description" type="string"/>
     </element>
 </database>

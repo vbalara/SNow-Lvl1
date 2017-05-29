@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>true</disabled>
+        <field>u_rolltime</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-29 04:37:31</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>be7727c90f8b32007f7c85bce1050eb9</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_rolltime</sys_name>
+        <sys_package display_value="VenRLRollScheduler" source="x_123925_venkatesh">3698adb40f0332007f7c85bce1050ecb</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="VenRLRollScheduler">3698adb40f0332007f7c85bce1050ecb</sys_scope>
+        <sys_update_name>sys_ui_policy_action_be7727c90f8b32007f7c85bce1050eb9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-29 04:37:31</sys_updated_on>
+        <table>x_123925_venkatesh_rollschedule</table>
+        <ui_policy display_value="RollScheduleEnvironmentPolicy">bac223490f8b32007f7c85bce1050eb8</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>
