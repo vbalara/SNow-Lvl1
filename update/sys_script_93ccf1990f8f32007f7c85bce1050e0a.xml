@@ -30,9 +30,9 @@
         <role_conditions/>
         <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
 	//get the current date
-	var curdate = new GlideDateTime();
-	var rolldate = new GlideDateTime(current.getValue("u_rolldate"));
-	if(curdate.after(rolldate))
+	var dateutil = new DateUtils();
+	var isfuture = dateutil.validateFutureDate(current.getValue("u_rolldate"));
+	if(isfuture == false)
 		{
 			gs.addErrorMessage("Not a valid date for roll schedule");
 			current.setAbortAction(true);
@@ -45,7 +45,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>93ccf1990f8f32007f7c85bce1050e0a</sys_id>
-        <sys_mod_count>4</sys_mod_count>
+        <sys_mod_count>10</sys_mod_count>
         <sys_name>RollScheduleDateRule</sys_name>
         <sys_overrides/>
         <sys_package display_value="VenRLRollScheduler" source="x_123925_venkatesh">3698adb40f0332007f7c85bce1050ecb</sys_package>
@@ -54,7 +54,7 @@
         <sys_scope display_value="VenRLRollScheduler">3698adb40f0332007f7c85bce1050ecb</sys_scope>
         <sys_update_name>sys_script_93ccf1990f8f32007f7c85bce1050e0a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-05-29 21:56:56</sys_updated_on>
+        <sys_updated_on>2017-05-30 20:29:55</sys_updated_on>
         <template/>
         <when>before</when>
     </sys_script>
