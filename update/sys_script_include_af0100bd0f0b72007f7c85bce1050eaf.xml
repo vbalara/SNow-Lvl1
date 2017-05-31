@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_script_include">
+    <sys_script_include action="INSERT_OR_UPDATE">
+        <access>package_private</access>
+        <active>true</active>
+        <api_name>x_123925_venkatesh.DateUtils</api_name>
+        <client_callable>true</client_callable>
+        <description>Validaate the dates in the forms</description>
+        <name>DateUtils</name>
+        <script><![CDATA[var DateUtils = Class.create();
+DateUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
+initialize: function(){	
+},
+	validateFutureDate:function(futdate)
+	{
+		var curdate = new GlideDateTime();
+		var tstdate = new GlideDateTime(futdate);
+		if(curdate.after(tstdate))
+			{
+				return false;
+			}
+		else
+		{
+			return true;
+		}
+	},
+    type: 'DateUtils'
+});]]></script>
+        <sys_class_name>sys_script_include</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-05-30 19:51:35</sys_created_on>
+        <sys_customer_update>true</sys_customer_update>
+        <sys_id>af0100bd0f0b72007f7c85bce1050eaf</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>DateUtils</sys_name>
+        <sys_package display_value="VenRLRollScheduler" source="x_123925_venkatesh">3698adb40f0332007f7c85bce1050ecb</sys_package>
+        <sys_policy>read</sys_policy>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="VenRLRollScheduler">3698adb40f0332007f7c85bce1050ecb</sys_scope>
+        <sys_update_name>sys_script_include_af0100bd0f0b72007f7c85bce1050eaf</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-05-30 20:25:54</sys_updated_on>
+    </sys_script_include>
+</record_update>
